@@ -22,6 +22,6 @@ KUDA_CONTRACT_ADDRESS
 START_BLOCK
 ```
 
-The `DATABASE_URL` should be a valid postgres connection string for indexing relevant `KUDA` contract events as well as `BlobstreamX` events for Celestia tasks.
+The `DATABASE_URL` should be a valid Postgres connection string for indexing relevant `KUDA` contract events as well as `BlobstreamX` events for Celestia tasks.
 
 You can find the appropriate `BLOBSTREAMX_CONTRACT_ADDRESS` for the chain you're running the prover on in [this](https://docs.celestia.org/how-to-guides/blobstream#deployed-contracts) page.
